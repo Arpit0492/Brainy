@@ -1,0 +1,74 @@
+html {
+    background-color: rgb(38,38,38);
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    color: white;
+}
+
+div#quiz {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 25px;
+    max-width: 600px;
+    background-color: #bdc3c7;
+}
+
+.inQuiz {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+div#question {
+    text-align: center;
+    background-color: #f39c12;
+    padding: 10px;
+}
+
+div#choices {
+    font-weight: bold;
+}
+
+.choice {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+#next {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+div#fixFloat {
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+}
+
+a {
+    color: white;
+}
+
+#next{
+    text-decoration: none;
+    background-color: #16a085;
+    text-align: center;
+    padding: 10px 20px;
+}
+#next:hover {
+    opacity: 0.8;
+}
