@@ -6,10 +6,11 @@
     "use strict";
 
     //All the questions in the quiz.
-    var allQuestions = [{question: "What is the capital of Georgia?",
-        choices:["Atlanta", "Savannah", "Athens", "Macon"], correctAnswer:0},
-        {question: "What is the capital of Kentucky?",
-            choices:["Lexington", "Louisville", "Frankfort"], correctAnswer:2}];
+    var allQuestions = [{question: "Who was Alan Turing?",
+        choices:["Chemist", "Father of AI", "computer engineer", "Mason"], correctAnswer:1},
+        {question: "Where is silicon valley of India located?",
+            choices:["New Delhi", "Pune", "Bangalore","Hyderabad"], correctAnswer:2},
+        {question:"When internet was founded?", choices:["Late 80s","Late 90s","Late 70s","Early 2000"], correctAnswer:0}];
 
     //Initializes variables.
     var current = 0,
