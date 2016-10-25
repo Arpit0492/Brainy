@@ -1,2 +1,2 @@
 # Brainy
-A simple web application making use of basic features of HTML,CSS and Javascript
+A simple quiz on web making use of HTML,CSS and Javascript
